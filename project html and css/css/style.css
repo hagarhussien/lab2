@@ -1,0 +1,412 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    /*جعل اول حرف من كل كلمة كبير */
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s linear;
+}
+
+
+/* body element style */
+
+body {
+    background-color: #222;
+}
+
+
+/* html element style */
+
+html {
+    scroll-behavior: smooth;
+    --main-color: #d638ac;
+}
+
+
+/* link element style */
+
+a {
+    text-decoration: none;
+}
+
+
+/* header element style */
+
+header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*لجعل الheader ثابتة */
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+span {
+    color: var(--main-color);
+}
+
+nav a {
+    font-weight: 100;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    color: var(--main-color);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+#home {
+    padding-top: 80px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin: auto;
+}
+
+.home {
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    width: 75%;
+}
+
+.im {
+    padding-top: 10px;
+    height: 100%;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.Fashion {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#Fashion {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    margin: 30px 40px;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px var(--main-color);
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.fa {
+    text-align: center;
+    padding: 3rem auto;
+    border: 1px solid rgb(240, 197, 229);
+    height: 350px;
+}
+
+.fa:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px #df6ec1;
+    border-radius: 20px;
+}
+
+.im1 {
+    width: 100%;
+    height: 80%;
+}
+
+p {
+    padding: 10px 0 30px;
+}
+
+.mor {
+    text-align: center;
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(233, 171, 218);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.mor:hover {
+    color: var(--main-color);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 10px #df6ec1;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* about us */
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.abo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+    gap: 2rem;
+    margin: 30px 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.about {
+    width: 75%;
+    padding-left: 30px;
+    font-size: large
+}
+
+.bac {
+    width: 100%;
+    padding-right: 20px;
+}
+
+
+/* contact us */
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.blue {
+    color: var(--main-color);
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-flex;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(25rem));
+    gap: 2.5 rem;
+}
+
+.box {
+    padding: 2rem;
+    background-color: #333;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.title {
+    background-color: var(--main-color);
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.price {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+li {
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+i {
+    color: var(--main-color);
+    padding-right: .5rem;
+}
+
+
+/* ////Contact// */
+
+.ff {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    padding: 10px;
+}
+
+.input {
+    width: 520px;
+    height: 70px;
+    background-color: #333;
+    border-radius: 2rem;
+    padding-left: 20px;
+}
+
+.inp {
+    width: 100%;
+    background-color: #333;
+    border-radius: 2rem;
+    padding: 0.7rem 0.6rem;
+    margin: 0.3rem;
+    font-size: 1.5rem;
+}
+
+#t {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--main-color);
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #101010;
+    margin-top: 100px;
+}
+
+.credits {
+    display: block;
+    --border: 2px solid #3a3535;
+    border-top: var(--border);
+    padding: 2rem;
+    text-align: center;
+}
+
+.credits p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.credits p span {
+    color: var(--main-color);
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-container div:hover {
+    transform: scale(1.2);
+}
+
+.box-container div {
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-container div a {
+    margin: 0.5rem;
+}
+
+.box-container div a:hover i {
+    margin-right: 16px;
+}
+
+.box-container div a:hover {
+    color: #ff3ca1;
+    font-weight: bold;
+}
+
+#login {
+    padding: 3rem auto;
+    border: 1px solid rgb(240, 197, 229);
+    height: 400px;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    margin-top: 12%;
+    box-shadow: 5px 5px #ef75b4;
+}
+
+.log {
+    width: 350px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 1rem;
+    padding-left: 10px;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.wi {
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wi:hover {
+    background-color: #ef75b4;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 70px;
+}
+
+#fg:hover {
+    color: #df6ec1;
+}
+
+#signUP {
+    padding: 3rem auto;
+    border: 1px solid rgb(240, 197, 229);
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    margin-top: 7%;
+    box-shadow: 5px 5px #ef75b4;
+}
+
+#f {
+    padding: 40px;
+    padding-left: 5px;
+}
+
+option {
+    color: black;
+}
